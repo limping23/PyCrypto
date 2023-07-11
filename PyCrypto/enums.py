@@ -1,8 +1,5 @@
 import enum
 
-crypto_name = "bitcoin"
-url = f"https://www.binance.com/en/price/{crypto_name}"
-
 
 class Currency(enum.IntEnum):
     USD = 1
