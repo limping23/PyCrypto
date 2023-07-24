@@ -1,12 +1,13 @@
 # PyCrypto
 Python Library for working with Сryptocurrency using CoinGecko API
 
+[![Documentation Status](https://readthedocs.org/projects/pycryptoo/badge/?version=latest)](https://pycryptoo.readthedocs.io/en/latest/?badge=latest)
 
 
 Installing
 ----------
 
-Install and update using `pip`:
+Install and update using [pip](https://pypi.org/project/pip/):
 
 ````
     pip install PyCrypto
@@ -35,7 +36,7 @@ Usage
 Documentation
 -------------
 
-Documentation for this package can be found on [readthedocs](.
+Documentation for this package can be found on [readthedocs](pycryptoo.readthedocs.io).
 
 
 
