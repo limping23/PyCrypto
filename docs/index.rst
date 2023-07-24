@@ -6,7 +6,6 @@
 PyCrypto
 ====================================
 get_overview()
-"""
            Gets the brief description of a coin.
 
            :param crypto_name: The name of the coin how it appears on CoinGecko.
@@ -17,7 +16,7 @@ get_overview()
            :rtype: Optional[:class:`dict`]
 
            .. versionadded:: 1.0.0
-           """
+         
 
 
 
