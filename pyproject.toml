@@ -1,0 +1,18 @@
+requires = ["pycoingecko", "pandas"]
+build-backend = ["pycoingecko.build", "pandas.build"]
+[project]
+name = "PyCrypto"
+version = "0.0.1"
+authors = [
+  { name="limping" },
+]
+readme = "README.rst"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/limping23/PyCrypto"
