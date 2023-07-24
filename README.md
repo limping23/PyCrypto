@@ -8,16 +8,16 @@ Installing
 
 Install and update using `pip`:
 
-
+````
     pip install PyCrypto
-
+````
 
 Usage
 -----
 
     
     
-    
+````
     Example using get_overview
     print(crypto.get_overview("bitcoin", "usd"))
 
@@ -26,7 +26,7 @@ Usage
 
     Example using get_market_cap
     print(crypto.get_market_cap("tether", "rub"))
-
+````
     
 
 
@@ -35,7 +35,7 @@ Usage
 Documentation
 -------------
 
-Documentation for this package can be found on readthedocs.
+Documentation for this package can be found on [readthedocs](.
 
 
 
