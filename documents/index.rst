@@ -5,16 +5,20 @@
 
 PyCrypto
 ====================================
+get_overview()
+"""
+           Gets the brief description of a coin.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+           :param crypto_name: The name of the coin how it appears on CoinGecko.
+           :type crypto_name: :class:`str`
+           :param currency: The name of the currency (e.g. "eur"), "usd" sets on default
+           :type currency: :class:`str`
+           :return: An overview of the item on success, :class:`None` otherwise. Overview includes brief description of an item.
+           :rtype: Optional[:class:`dict`]
+
+           .. versionadded:: 1.0.0
+           """
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
