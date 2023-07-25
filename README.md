@@ -1,23 +1,8 @@
 # PyCrypto
 Python Library for working with Сryptocurrency using CoinGecko API
 
-[![Documentation Status](https://readthedocs.org/projects/pycryptoo/badge/?version=latest)](https://pycryptoo.readthedocs.io/en/latest/?badge=latest)
-
-
-Installing
-----------
-
-Install and update using [pip](https://pypi.org/project/pip/):
-
-````
-    pip install PyCrypto
-````
-
 Usage
 -----
-
-    
-    
 ````
     Example using get_overview
     print(crypto.get_overview("bitcoin", "usd"))
@@ -28,18 +13,6 @@ Usage
     Example using get_market_cap
     print(crypto.get_market_cap("tether", "rub"))
 ````
-    
-
-
-
-
-Documentation
--------------
-
-Documentation for this package can be found on [readthedocs](pycryptoo.readthedocs.io).
-
-
-
 License
 -------
 MIT License
