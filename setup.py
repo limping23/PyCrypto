@@ -1,32 +1,22 @@
 from setuptools import setup, find_packages
-import re
 
+with open("README.md", "r") as readme_file:
+    readme = readme_file.read()
 
-with open("README.md", "r") as f:
-    long_description = f.read()
-
-
-with open("PyCrypto/__init__.py") as f:
-    version = re.search(r"""^__version__\s*=\s*['"]([^\'"]*)['"]""", f.read(), re.MULTILINE).group(1)
-
+requirements = ["pandas==2.0.3", "pycoingecko==3.1.0"]
 
 setup(
-    name="PyCrypto",
-    version=version,
+    name="limping",
+    version="1.0.0",
     author="limping",
-    author_email="matvey.nemudrov@mail.ru",
-    description="Get CryptoCurrencies info, prices, volume using Python 3",
-    long_description=long_description,
+    description="A package to work with Cryptocurrency",
+    long_description=readme,
     long_description_content_type="text/markdown",
-    license="MIT",
-    url="https://github.com/limping23/PyCrypto",
-    download_url="https://github.com/limping23/PyCrypto/tarball/v" + version,
+    url="https://github.com/limping23/PyCrypto/",
     packages=find_packages(),
+    install_requires=requirements,
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.11",
+        "License :: MIT License ::",
     ],
-    setup_requires=None,
-    python_requires='>=3.6',
 )
