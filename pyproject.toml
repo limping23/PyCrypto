@@ -16,3 +16,23 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/limping23/PyCrypto"
+[tool.poetry]
+name = "pycrypto"
+version = "1.0.0"
+description = ""
+authors = ["limping <matvey.nemudrov@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+pycoingecko = "^3.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.0.3"
+pycoingecko = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
